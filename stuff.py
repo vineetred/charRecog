@@ -1,4 +1,6 @@
 import matplotlib.pyplot as plt
 from keras.datasets import mnist
-#download mnist data and split into train and test sets
-(X_train, y_train), (X_test, y_test) = mnist.load_data()
+import numpy as np
+import cv2
+
+im = cv2.imread("/English/img/GoodImg/Bmp/Sample001/img001-00001.png")
