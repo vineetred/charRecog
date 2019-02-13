@@ -5,7 +5,7 @@ import glob
 
 images = []
 labels = []
-for path in glob.glob("/home/hotshot2797/English/img/GoodImg/Bmp/Sample*"):
+for path in glob.glob("/Users/vineet/Desktop/cnn/English/img/GoodImg/Bmp/Sample*"):
 #     print(path)
 #     for img in glob.glob("/Users/vineet/Desktop/cnn/English/img/GoodImg/Bmp/Sample001/*.png"):
     for img in glob.glob(path+"/*.png"):
